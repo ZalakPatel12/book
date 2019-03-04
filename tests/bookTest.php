@@ -41,47 +41,6 @@ final class bookTest extends TestCase
 
     }
 
-    public function testBookAccelerate() :void
-    {
-        $this->assertTrue(
-            method_exists(book::class, 'accelerate')
-        );
-    }
-
-    public function testBookDecelerate() :void
-    {
-        $this->assertTrue(
-            method_exists(book::class, 'decelerate')
-        );
-    }
-
-    public function testRomeoJulietAccelerate(): void
-    {
-        $romeoJuliet = new RomeoJuliet();
-
-        $this->assertEquals(1, $romeoJuliet->accelerate());
-    }
-
-    public function testRomeoJulietDecelerate(): void
-    {
-        $romeoJuliet = new RomeoJuliet();
-
-        $this->assertEquals(-1, $romeoJuliet->decelerate());
-    }
-
-    public function testMacbethAccelerate(): void
-    {
-        $macbeth = new Macbeth();
-
-        $this->assertEquals(1, $macbeth->accelerate());
-    }
-
-    public function testMacbethDecelerate(): void
-    {
-        $macbeth = new Macbeth();
-
-        $this->assertEquals(-1, $macbeth->decelerate());
-    }
 
 
 }

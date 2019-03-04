@@ -16,16 +16,6 @@ abstract class book
     public $genre;
     public $page;
 
-    public function accelerate() :int
-    {
-
-    }
-
-    public function decelerate() :int
-    {
-
-    }
-
     public function bookType() :array
     {
         $array = [
