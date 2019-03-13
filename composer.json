@@ -1,12 +1,15 @@
 {
     "name": "vendor/name",
-    "description": "cvs to html file",
+    "description": "csv to html file",
     "type": "project",
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "mit",
     "authors": [
         {
-            "name": "Arroyo",
+            "name": "Angela Arroyo",
             "email": "ara55@njit.edu"
         }
-    ],
-    "require": {}
+    ]
 }
