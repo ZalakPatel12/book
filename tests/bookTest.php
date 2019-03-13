@@ -14,7 +14,7 @@ final class bookTest extends TestCase
 {
     public function testArray() {
 
-        $book = new RomeoJuliet();
+        $book = new book();
 
         $bookType = $book->bookType();
         $this->assertArrayHasKey('one', $bookType);
