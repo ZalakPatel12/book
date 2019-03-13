@@ -12,9 +12,10 @@ use PHPUnit\Framework\TestCase;
 
 final class bookTest extends TestCase
 {
-    public function testArray() {
+    public function testArray()
+    {
 
-        $book = new book();
+        $book = RomeoJuliet();
 
         $bookType = $book->bookType();
         $this->assertArrayHasKey('one', $bookType);
@@ -28,7 +29,7 @@ final class bookTest extends TestCase
         $this->assertInstanceOf(RomeoJuliet::class, $book);
     }
 
-    public function testCanCreateMacbeth() :void
+    public function testCanCreateMacbeth(): void
     {
         $book = new Macbeth();
 
@@ -42,5 +43,5 @@ final class bookTest extends TestCase
     }
 
 
-
+}
 }
