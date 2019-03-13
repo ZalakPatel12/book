@@ -1,5 +1,12 @@
 {
     "name": "vendor/name",
-    "description": "leave empty",
+    "description": "cvs to html file",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Arroyo",
+            "email": "ara55@njit.edu"
+        }
+    ],
     "require": {}
 }
