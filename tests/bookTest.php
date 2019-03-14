@@ -22,26 +22,4 @@ final class bookTest extends TestCase
         $this->assertArrayHasKey('two', $bookType);
     }
 
-    public function testCanCreateRomeoJuliet(): void
-    {
-        $book = new RomeoJuliet();
-
-        $this->assertInstanceOf(RomeoJuliet::class, $book);
-    }
-
-    public function testCanCreateMacbeth(): void
-    {
-        $book = new Macbeth();
-
-        $this->assertInstanceOf(Macbeth::class, $book);
-    }
-
-    public function testBookHasPage(): void
-    {
-        $this->assertclassHasAttribute('page', Book::class);
-
-    }
-
-
-}
 }
