@@ -1,15 +1,13 @@
 {
-    "name": "vendor/name",
-    "description": "csv to html file",
+    "name": "ara55/book",
+    "description": "Mini Project 1",
     "type": "project",
-    "require": {
-        "phpunit/phpunit": "^7.5"
-    },
     "license": "mit",
     "authors": [
         {
             "name": "Angela Arroyo",
             "email": "ara55@njit.edu"
         }
-    ]
+    ],
+    "require": {}
 }
